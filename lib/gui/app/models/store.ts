@@ -58,6 +58,7 @@ export const DEFAULT_STATE = Immutable.fromJS({
 	flashingWorkflowUuid: '',
 	availableDrives: [],
 	selection: {
+		image: {},
 		devices: Immutable.OrderedSet(),
 	},
 	isFlashing: false,
@@ -494,7 +495,7 @@ function storeReducer(
 		}
 
 		case Actions.DESELECT_SOURCE: {
-			return state.deleteIn(['selection', 'image']);
+			return state.setIn(['selection', 'image'], {});
 		}
 
 		case Actions.SET_APPLICATION_SESSION_UUID: {
