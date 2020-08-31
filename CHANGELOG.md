@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# v1.5.107
+## (2020-08-31)
+
+* Fix zoomFactor in webviews [Lorenzo Alberto Maria Ambrosi]
+* Add retry button to the errors modal in success screen [Lorenzo Alberto Maria Ambrosi]
+* Cleanup after child-process is terminated [Lorenzo Alberto Maria Ambrosi]
+* Add skip function to validation [Lorenzo Alberto Maria Ambrosi]
+* Rework success screen [Lorenzo Alberto Maria Ambrosi]
+
+# v1.5.106
+## (2020-08-27)
+
+* Disable ext partitions trimming on 32 bit windows until it is fixed [Alexis Svinartchouk]
+* Fix opening zip files from servers accepting Range headers [Alexis Svinartchouk]
+
+# v1.5.105
+## (2020-08-25)
+
+* Update etcher-sdk to 4.1.26 [Alexis Svinartchouk]
+* URL selector cancel button cancels ongoing url selection [Alexis Svinartchouk]
+* Spinner for URL selector modal [Alexis Svinartchouk]
+
 # v1.5.104
 ## (2020-08-20)
 
